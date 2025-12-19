@@ -7,7 +7,7 @@ from PIL import Image
 import os 
 
 IMAGE_SIZE = (50, 50)
-POP_SIZE = 250
+POP_SIZE = 300
 GENERATIONS = 600
 SAMPLE_SIZE = 400
 BASE_MUTATION = 0.25
@@ -16,10 +16,10 @@ def load_target_image(filename):
     folder = "images"
     filepath = os.path.join(folder, filename)
     try:
-        img = Image.open(filename).convert('L').resize(IMAGE_SIZE)
+        img = Image.open(filepath).convert('L').resize(IMAGE_SIZE)
         return np.array(img, dtype=float)
     except Exception as e:
-        print(f"Error loading {filename}: {e}")
+        print(f"Error loading {filepath}: {e}")
         return np.tile(np.linspace(0, 255, 50), (50, 1))
 
 def save_best(formula, score, gen):
@@ -48,7 +48,7 @@ def get_pixel_weights(target):
 def main():
     print("=== Starting Evolutionary Process ===")
     
-    filename = '' #add file name (some test imaeges are in the images folder)
+    filename = 'square.png' #add file name (some test imaeges are in the images folder)
     target_img = load_target_image(filename)
     print(f"Target: {filename} {IMAGE_SIZE}")
 
