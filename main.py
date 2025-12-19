@@ -48,7 +48,7 @@ def get_pixel_weights(target):
 def main():
     print("=== Starting Evolutionary Process ===")
     
-    filename = 'square.png' #add file name (some test imaeges are in the images folder)
+    filename = '' #add file name (some test imaeges are in the images folder)
     target_img = load_target_image(filename)
     print(f"Target: {filename} {IMAGE_SIZE}")
 
