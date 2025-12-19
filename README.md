@@ -8,4 +8,4 @@ To run the evolutionary process, first place your target image, such as triangle
 
 The implementation includes several advanced features designed to meet the assignment requirements. All pixel coordinates are normalized to the range [−1,1]. To maintain computational efficiency, fitness is calculated using a random sample of 400 pixels per generation. The system applies a complexity penalty to prevent "bloat" and ensure formulas remain compact. Additionally, an adaptive mutation rate is used to help the population escape local optima when progress stalls. Finally, every evolved result is compared against a random formula average and a hand-crafted linear gradient baseline.
 
-This project was completed by Malay Patel (Student ID: 7944168, Email: hw23rj@brocku.ca) as a solo project for the COSC 3P71 final assignment.
+Completed by Malay Patel (Student ID: 7944168, Email: hw23rj@brocku.ca) as a solo project for the COSC 3P71 final assignment.
