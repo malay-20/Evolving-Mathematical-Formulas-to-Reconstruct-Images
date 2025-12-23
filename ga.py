@@ -24,7 +24,7 @@ class GeneticProgramming:
     def random_tree(self, depth, method='grow'):
         if depth <= 1 or (method=='grow' and random.random() < 0.3):
             t = random.choice(self.terminals)
-            val = random.uniform(-5, 5) if t == 'const' else None
+            val = random.uniform(-50, 50) if t == 'const' else None
             return Variable(t, val)
         else:
             if random.random() < 0.6:
