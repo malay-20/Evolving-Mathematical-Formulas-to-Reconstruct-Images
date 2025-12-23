@@ -1,3 +1,4 @@
-Generation: 580
-Score: -59.8290
-Expression: add(-2.53, div(add(add(add(add(pow2(add(pow2(m), mod(2.11, pow2(m)))), pow2(add(min(abs(m), sin(pow2(m))), mod(-4.73, mod(2.11, pow2(abs(m))))))), pow2(add(add(pow2(add(mod(2.02, mod(4.10, max(n, n))), mod(-3.56, max(n, n)))), mod(-3.56, mod(4.10, max(n, n)))), mod(2.02, mod(4.10, max(n, n)))))), max(-2.53, 2.02)), pow2(add(add(pow2(add(mod(2.02, mod(4.10, max(n, n))), mod(-3.56, mod(4.10, max(n, -4.73))))), mod(-3.56, mod(4.10, max(n, n)))), mod(2.02, mod(4.10, max(n, n)))))), pow2(add(pow2(add(pow2(pow2(add(pow2(add(add(pow2(n), pow2(n)), mod(2.02, max(n, n)))), pow2(pow2(mod(2.02, max(n, n))))))), max(2.02, n))), exp(pow2(add(pow2(add(pow2(add(pow2(m), pow2(m))), pow2(add(pow2(m), mod(0.99, max(m, m)))))), exp(pow2(pow2(add(pow2(n), add(pow2(n), pow2(n)))))))))))))
+Generation: 420
+MSE-based Score: -0.9400
+SSIM: 1.0000
+Expression: sin(min(cos(11.90), min(sub(cos(11.90), mod(sin(sub(cos(11.90), sin(mul(42.21, 40.46)))), add(m, m))), min(min(sqrt(11.90), min(min(cos(11.90), sub(cos(11.90), mod(sin(sub(cos(11.90), sin(mul(42.21, 40.46)))), add(n, n)))), cos(42.21))), cos(11.90)))))
